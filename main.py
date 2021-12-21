@@ -43,7 +43,7 @@ def main():
     game.coin_flip_check()
 
     # trying to break the game; failure to properly input does not affect player turn
-    game.place_marker(game.game_result, 6, 0)
+    game.place_marker(25, 200, 200)
     game.place_marker(game.game_result, 6, 8)
     game.place_marker(game.game_result, 99, 99)
     game.place_marker(game.game_result, 12, 100)
